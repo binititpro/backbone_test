@@ -36,7 +36,7 @@
         </rollback>
     </changeSet>
  <changeSet id="3" author="Raj">
-        <createTable tableName="department1">
+        <createTable tableName="department2">
             <column name="id" type="int">
                 <constraints primaryKey="true" nullable="false"/>
             </column>
