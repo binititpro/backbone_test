@@ -55,4 +55,19 @@
     </changeSet>
 
 
+	    <changeSet id="3" author="Vikash">
+        <createTable tableName="department3">
+            <column name="id" type="int">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="name" type="varchar(50)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="active" type="boolean" defaultValueBoolean="true"/>
+        </createTable>
+		 <rollback>
+            <dropTable tableName="department3"/>
+        </rollback>
+    </changeSet>
+	
 </databaseChangeLog>
