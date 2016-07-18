@@ -55,8 +55,8 @@
     </changeSet>
 
 
-	    <changeSet id="3" author="Vikash">
-        <createTable tableName="department3">
+	    <changeSet id="4" author="Diwakar">
+        <createTable tableName="department4">
             <column name="id" type="int">
                 <constraints primaryKey="true" nullable="false"/>
             </column>
